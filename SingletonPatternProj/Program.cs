@@ -14,6 +14,7 @@ namespace SingletonPatternProj
             Singleton s2 = Singleton.UniqueInstance;
             s1.Value1 = "AAA";
             s2.Value2 = "BBB";
+            s2.Value2 = "CCC";
             SingletonNested s3 = SingletonNested.UniqueInstance;
 
             
