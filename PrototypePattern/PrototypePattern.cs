@@ -59,6 +59,7 @@ namespace PrototypePatternProj
         }
         static void Main()
         {
+            var s = "";
             PrototypeManager manager = new PrototypeManager();
             Prototype c2, c3;
             // Make a copy of Australia's data
